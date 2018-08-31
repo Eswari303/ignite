@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dnsNamePrefix": {
+      "value": "GEN-UNIQUE"
+    },
+    "agentCount": {
+      "value": 1
+    },
+    "agentVMSize" : {
+      "value": "Standard_A2"
+    },
+    "linuxAdminUsername": {
+      "value": "azureuser"
+    },
+    "orchestratorType": {
+      "value": "Swarm"
+    },
+    "masterCount": {
+      "value": 1
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAuTfUyD9DG6zB190BGwKd9W1y9RTGaEeM1PhAlfOPdkpZljuUVY+Xe807VeX1OwC90aXYwlhEJ4GcqUE6/ZXus7pUEzXuDwzBZ1gAnpG2BntDNZOiheB+nVlFCoTsQAR0l2pvfYo3+01g8uU3eUzDBxpJJViFH/SculbGVi1lg2YdoSv2aPk0O98uTKGZjnzL8+AmAhj3fHcMHvbKLI47FJOBEGzy8r2pITuWfWArgW2uHn9ZXJL3bP1DUZZlH6W1wMGnJNejaAXv4DF8yKaHRYzfYowcA780ECb/2ErnvblNn+gLOXhsq0LWVICWt0Trp2PrO0M5y/ZqpoY/RFzrUw== rsa-key-20180419"
+    }
+  }
+}
